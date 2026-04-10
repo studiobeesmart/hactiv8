@@ -11,9 +11,17 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "@google/genai": "^1.48.0",
+    "@google/genai": "^1.49.0",
     "dotenv": "^17.4.1",
     "express": "^5.2.1",
     "multer": "^2.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studiobeesmart/hactiv8.git"
+  },
+  "bugs": {
+    "url": "https://github.com/studiobeesmart/hactiv8/issues"
+  },
+  "homepage": "https://github.com/studiobeesmart/hactiv8#readme"
 }
