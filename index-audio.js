@@ -8,7 +8,7 @@ const app = express();
 const upload = multer();
 const ai = new GoogleGenAI(
     { 
-        apiKey: "AIzaSyAwd_pccG59_beu5fzAFix9OGw1D06wNBE"
+        apiKey: process.env.GEMINI_API_KEY
     }
 )
 
